@@ -1,4 +1,3 @@
-
 # Decodificador-Alura-Challenge
 
 Este é um projeto de decodificador desenvolvido como parte do "Decodificador-Alura-Challenge". A aplicação permite que os usuários criptografem e descriptografem mensagens utilizando uma técnica simples de substituição de letras por códigos. Além disso, o texto resultante pode ser copiado para a área de transferência.
@@ -68,8 +67,8 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 Para mais informações, entre em contato:
 
-- **Email:** seu-email@exemplo.com
-- **LinkedIn:** [Seu Nome](https://www.linkedin.com/in/seu-perfil/)
+- **Email:** caio.almeida.dev@gmail.com
+- **LinkedIn:** [Caio Vinicius Almeida De Araujo](https://www.linkedin.com/in/caio-vinicius-almeida-fullstack-developer)
 
 ---
 
