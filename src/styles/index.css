@@ -1,0 +1,196 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /* Dark blue */
+  --dark-blue-100: #609ed4;
+  --dark-blue-200: #356ea9;
+  --dark-blue-300: #0a3871;
+  --dark-blue-400: #072b61;
+  --dark-blue-400: #052051;
+
+  /*ight blue*/
+  --Light-blue-100: #f3f5fc;
+  --Light-blue-200: #eff1fa;
+  --Light-blue-300: #e9ecf8;
+  --Light-blue-400: #aab2d5;
+  --Light-blue-500: #757fb2;
+
+  /*Gray*/
+  --Gray-100: #ced4da;
+  --Gray-200: #adb5bd;
+  --Gray-500: #868e96;
+  --Gray-400: #495057;
+  --Gray-500: #343a40;
+}
+
+* {
+  box-sizing: border-box;
+  background: var(--Light-blue-100);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 2rem;
+}
+
+.Logo {
+  margin-left: 0.625rem;
+  padding-top: 0.625rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1.375rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.text-area {
+  border: none;
+  color: var(--dark-blue-300);
+  margin-top: 5.625rem;
+  text-transform: lowercase;
+}
+
+.text-area::placeholder {
+  color: var(--dark-blue-300);
+}
+
+.text-area:focus {
+  outline: none;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  padding: 0.75rem;
+  width: 25rem;
+  height: 100%;
+  border-radius: 2rem;
+  background: white;
+  /* shadow */
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.mensagem {
+  width: 21rem;
+  height: 100%;
+  flex-shrink: 0;
+  border: none;
+  background: #fff;
+  color: var(--dark-blue-300);
+}
+
+.mensagem:focus {
+  outline: none;
+}
+
+.informacao {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12.5rem;
+}
+
+.informacao h6 {
+  color: var(--Gray-400);
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.125rem;
+  position: relative;
+  bottom: 0;
+}
+
+.btn-encriptar {
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 20.5rem;
+  border-radius: 1.5rem;
+  background: var(--dark-blue-300);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.35s ease;
+}
+
+.btn-encriptar:hover {
+  transform: scale(0.9);
+  background-color: black;
+  border: 0.125rem solid var(--dark-blue-100);
+  color: whitesmoke;
+}
+
+.btn-desencriptar {
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 20.5rem;
+  border-radius: 1.5rem;
+  background: #d8dfe8;
+  border: 1px solid var(--dark-blue-300);
+  color: var(--dark-blue-300);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.35s ease;
+}
+
+.btn-desencriptar:hover {
+  transform: scale(0.9);
+  background-color: black;
+  border: 0.125rem solid var(--dark-blue-100);
+  color: whitesmoke;
+}
+
+.btn-copiar {
+  display: flex;
+  width: 21rem;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: relative;
+  bottom: 0;
+  border-radius: 1.5rem;
+  border: 0.0625rem solid var(--dark-blue-300);
+
+  color: var(--dark-blue-300);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.35s ease;
+}
+
+.btn-copiar:hover {
+  transform: scale(0.9);
+  background-color: black;
+  border: 0.125rem solid var(--dark-blue-100);
+  color: whitesmoke;
+}

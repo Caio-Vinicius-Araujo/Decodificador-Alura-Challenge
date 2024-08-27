@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <script src="./src/scripts/script.js" defer></script>
+    <title>Decodificador-Alura-Challenge</title>
+  </head>
+  <body>
+    <header>
+      <img class="Logo" src="./src/assets/Logo.svg" alt="Logo da Alura" />
+    </header>
+
+    <main>
+      <section>
+        <textarea
+          class="text-area"
+          cols="41"
+          rows="4"
+          placeholder="Digite seu texto"
+        ></textarea>
+
+        <div class="informacao">
+          <h6>
+            <img
+              src="./src/assets/bi_exclamation-circle-fill (1).svg"
+              alt="bi_exclamation-circle-fill"
+            />
+            Apenas letras minúsculas e sem acento.
+          </h6>
+        </div>
+
+        <div class="botoes">
+          <button class="btn-encriptar" onclick="btnEncriptar()">
+            Criptografar
+          </button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section class="aside">
+        <textarea class="mensagem" cols="20" rows="10"></textarea>
+        <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+      </section>
+    </main>
+  </body>
+</html>
