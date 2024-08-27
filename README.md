@@ -73,3 +73,5 @@ Para mais informações, entre em contato:
 ---
 
 Este projeto foi desenvolvido como parte do desafio de codificação da Alura. A ideia é praticar e demonstrar habilidades em HTML, CSS e JavaScript.
+
+- **Acesse o projeto:** [Decodificador-Alura-Challenge](https://caio-vinicius-araujo.github.io/Decodificador-Alura-Challenge/)
